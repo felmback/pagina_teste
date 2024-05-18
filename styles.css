@@ -5,9 +5,23 @@
 }
 
 body {
-  /* background: url('img/fundo.jpg') no-repeat center; */
+  background: url('img/fundo.jpg') no-repeat center fixed ;
   background-size: cover;
-  font-family: sans-serif;  
+  font-family: sans-serif; 
+
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif; 
+    margin-top: 5rem;
+    color: #030140;
+    /* letter-spacing: 1px; */
+    font-size: 3.0rem;
+    text-transform: inherit;
+    font-weight: bold;
+    text-shadow: rgba(255,255,255,0.08);
+
 }
 
 .login-wrapper {
@@ -22,7 +36,8 @@ body {
     width: 100%;
     max-width: 380px;
     padding: 80px 40px 40px;
-    background: rgba(0,0,0,0.7);
+    /* background: linear-gradient(135deg, #010326, #030140); */
+    background: linear-gradient(125deg, #39BF99, #030140);
     border-radius: 10px;
     color: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
@@ -55,7 +70,7 @@ body {
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 2rem;
-    color: #ff652f;
+    color: #36B1BF;
 }
 
 .form .input-group {
@@ -89,7 +104,7 @@ body {
 .form .input-group input:focus + label,
 .form .input-group input:valid + label {
     transform: translateY(-18px);
-    color: #ff652f;
+    color: #36B1BF;
     font-size: .8rem;
 }
 
@@ -98,7 +113,7 @@ body {
     margin-left: auto;
     border: none;
     outline: none;
-    background: #ff652f;
+    background: #36B1BF;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
